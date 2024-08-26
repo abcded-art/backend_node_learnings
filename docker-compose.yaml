@@ -1,0 +1,6 @@
+version: '3'
+services:
+  image: node-backend:1.0
+  web:
+    ports:
+      - "8060:3001"
